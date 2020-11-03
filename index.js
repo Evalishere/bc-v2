@@ -57,4 +57,4 @@ if(message.content.startsWith(prefix + "bc")) {
 });
 
 
-client.login(process.env.token);
+client.login("cwOTc3MDk3MTg2OTM0ODI0.X5laYA.3v3K4vOGnZ5I9SEqQoIjZAT3KE");
