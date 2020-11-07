@@ -32,9 +32,8 @@ const dateFormat = require('dateformat');
 //لا تلعب اي شي في الكود
 
 
-
 const prefix = "!"
-const developers = "496996678088392725"
+const developers = "596049877570682910"
 
 ////////
 
@@ -44,7 +43,7 @@ const developers = "496996678088392725"
 client.on('message', async message => {
 if(message.content.startsWith(prefix + "bc")) {
   let i = client.users.size;
-  if(message.author.id !== '496996678088392725') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
+  if(message.author.id !== '596049877570682910') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
   var args = message.content.split(' ').slice(1).join(' ');
   if(!args) return message.channel.send('❎ » يجب عليك كتابة الرسالة')
   setTimeout(() => {
@@ -57,4 +56,4 @@ if(message.content.startsWith(prefix + "bc")) {
 });
 
 
-client.login("cwOTc3MDk3MTg2OTM0ODI0.X5laYA.3v3K4vOGnZ5I9SEqQoIjZAT3KE");
+client.login("4MzY4NjQyOTUzNDQ1NDQ3.XrWVtQ.nDoVbuhjxLnmc4577mT9UWSc6R");
